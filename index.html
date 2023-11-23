@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>test Desis</title>
+  </head>
+  <body>
+    <h1>Formulario de votación:</h1>
+
+    <main>
+      <form id="formVote">
+        <label>
+          Nombre:
+          <input id="name" type="text" />
+        </label>
+        <label>
+          Alias:
+          <input id="alias" type="text" />
+        </label>
+        <label>
+          RUT:
+          <input id="rut" type="text" />
+        </label>
+        <label>
+          Email:
+          <input id="email" type="text" />
+        </label>
+        <label>
+          Región:
+          <select id="selectComboboxRegion" name="frutas"></select>
+        </label>
+
+        <label>
+          Comuna:
+          <select id="selectComboboxCommune" name="frutas"></select>
+        </label>
+        <label>
+          Candidato:
+          <select id="selectComboboxCandidate" name="frutas">
+            <option value="manzana">Manzana</option>
+            <option value="banana">Banana</option>
+            <option value="uva">Uva</option>
+            <option value="fresa">Fresa</option>
+            <option value="naranja">Naranja</option>
+          </select>
+        </label>
+        <div>
+          <h3>como se enteró de Nosotros</h3>
+
+          <label>Web <input type="checkbox" /></label>
+          <label>Tv <input type="checkbox" /></label>
+          <label>Redes Sociales <input type="checkbox" /></label>
+          <label>Amigo <input type="checkbox" /></label>
+        </div>
+        <button>Votar</button>
+      </form>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
